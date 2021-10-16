@@ -6,7 +6,7 @@ Created on Tue Dec 15 21:01:47 2020
 """
 
 from collections import defaultdict
-Input=open("data/day 1. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/Day 1. input.txt", "r").read().split("\n")[:-1]
 Input = list(map(int, Input))
 
 # deel 1

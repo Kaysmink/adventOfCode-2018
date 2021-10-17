@@ -1,2 +1,5 @@
 # folders to exclude
 /.spyproject/
+
+# files to exclude
+/data/sample.txt

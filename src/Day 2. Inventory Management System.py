@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 15 21:14:34 2020
-
-@author: kaysm
-"""
-
-Input=open("data/day 2. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/day 02. input.txt", "r").read().split("\n")[:-1]
 
 # deel 1 
 counter2 = 0 

@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 15 21:43:44 2020
-
-@author: kaysm
-"""
-
 from collections import defaultdict
 
-Input=open("data/day 3. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/day 03. input.txt", "r").read().split("\n")[:-1]
 
 listX =  []
 listY = []

@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 16 13:20:00 2021
-
-@author: kaysm
-"""
-
 from collections import defaultdict
 from collections import Counter
 
-Input=open("data/day 4. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/day 04. input.txt", "r").read().split("\n")[:-1]
 chronolog = sorted(Input)
 
 guardsSleeping = defaultdict(list)

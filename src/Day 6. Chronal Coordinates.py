@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 17 13:38:18 2021
-
-@author: kaysm
-"""
-
 from collections import defaultdict
 from collections import Counter
 
-Input=open("data/day 6. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/day 06. input.txt", "r").read().split("\n")[:-1]
 
 def closest_coordinate(x,y, coordinates):
     distances = [abs(int(xCord)-x) + abs(int(yCord)-y) for xCord, yCord in coordinates]

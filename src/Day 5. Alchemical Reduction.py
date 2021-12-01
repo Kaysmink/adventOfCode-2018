@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 16 14:57:00 2021
-
-@author: kaysm
-"""
-
 import string
 
-Input=open("data/Day 5. input.txt", "r").read().split("\n")[0]
+Input=open("data/Day 05. input.txt", "r").read().split("\n")[0]
 
 def react(polymer):   
     position = 0 

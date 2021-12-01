@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 17 14:53:09 2021
-
-@author: kaysm
-"""
-
 from collections import defaultdict 
 
-Input=open("data/day 7. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/day 07. input.txt", "r").read().split("\n")[:-1]
 
 def checkReady(takenStep):
     global stepsToWaitFor

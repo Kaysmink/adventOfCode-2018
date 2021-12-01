@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 15 21:01:47 2020
-
-@author: kaysm
-"""
-
 from collections import defaultdict
-Input=open("data/Day 1. input.txt", "r").read().split("\n")[:-1]
+Input=open("data/Day 01. input.txt", "r").read().split("\n")[:-1]
 Input = list(map(int, Input))
 
 # deel 1
